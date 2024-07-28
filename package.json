@@ -1,5 +1,5 @@
 {
-  "name": "SalsaJavaNese",
+  "name": "Laksmana27",
   "version": "5.0.3",
   "description": "Lightweight Bot Multidevice",
   "depecrated": false,
@@ -26,14 +26,14 @@
     "MD",
     "baileys-md"
   ],
-  "homepage": "https://github.com/Valdimir-Kemii/Kiku",
-  "author": "Salsa Javanese",
+  "homepage": "https://github.com/Laksmana27/What-ai",
+  "author": "Laksmana27",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Valdimir-Kemii/Kiku.git"
+    "url": "git+https://github.com/Laksmana27/What-ai.git"
   },
   "bugs": {
-    "url": "https://github.com/Valdimir-Kemii/Kiku/issues"
+    "url": "https://github.com/Laksmana27/What-ai/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
