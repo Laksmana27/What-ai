@@ -39,7 +39,7 @@ rl.question(text, resolve)
 const { Low, JSONFile } = low
 const mongoDB = require('./lib/mongoDB')
 
-require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8027)
 
 // RandomBytes
 const randomID = length => randomBytes(Math.ceil(length * .5)).toString('hex').slice(0, length)
@@ -86,7 +86,7 @@ loadDatabase = async function loadDatabase() {
 loadDatabase()
 
 const pairingCode = process.argv.includes("--pairing-code")
-const authFolder = `${opts._[0] || 'irull'}`
+const authFolder = `${opts._[0] || 'wuzy'}`
 global.isInit = !fs.existsSync(authFolder)
 const { state, saveCreds } = await useMultiFileAuthState(authFolder)
 
