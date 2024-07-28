@@ -27,7 +27,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 global.owner = [
   ['-'],
   ['-'],
-  ['6295372305081', 'Owner', 'rizkylaksmanap@mail.id', true]
+  ['62895372305081', 'Owner', 'rizkylaksmanap@gmail.com', true]
 ] // Put your number here
 global.mods = ['-'] // Moderator
 global.prems = ['-'] // Premium
