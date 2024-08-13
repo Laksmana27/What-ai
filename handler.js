@@ -1206,7 +1206,7 @@ global.dfail = (type, m, conn) => {
     if (msg) return conn.reply(m.chat, msg, m)
     let msgg = {
         unreg: `🚩 Verifikasi nomor dengan menggunakan nama dan tanggal lahir,  ikuti step by step berikut :\n\n\n– *STEP 1*
-Gunakan perintah *.reg <nama.umur>* \n\n– *STEP 2* jika moro ands berhasil terdaftar, selamat anda sudah bisa mengakses botnya ,,terima kasih.`
+Gunakan perintah *.reg <nama.umur>* \n\n– *STEP 2* jika nomir anda berhasil terdaftar, selamat anda sudah bisa mengakses botnya ,,terima kasih.`
     }[type]
     if (msgg) return conn.reply(m.chat, msgg, m, {
 contextInfo: {
